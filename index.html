@@ -3,104 +3,245 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Data Science Student</title>
-    <link rel="stylesheet" href="style/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <title>Portfolio: Aashish Shrestha</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <h4>Aashish Shrestha</h4>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+    
+    <!-- navigation section -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Unveiling the Mysteries of Machine Learning 🚀</p>
-            <a href="#projects" class="btn">View My Work</a>
+    <!-- home section -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Aashish Shrestha</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum molestiae distinctio facilis et voluptatem dignissimos hic?</p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github' ></i></a>
+                <a href="#"><i class='bx bxl-medium-square' ></i></a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/profile.jpg" alt="">
         </div>
     </section>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Hello! I'm a data science student with a passion for data analysis, machine learning, and turning data into actionable insights. I am constantly learning and exploring new technologies to enhance my skills.</p>
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/profile.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I'm Here to Help Your Next Project!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt debitis cupiditate ab quam velit cumque, hic reprehenderit quae nulla esse, qui asperiores illum, cum fuga iusto sed vero doloremque. Eligendi dolore saepe quisquam fuga itaque quibusdam impedit, nemo dignissimos iste ut doloremque debitis expedita dolorem.</p>
+
+            <a href="#" class="btn">Read More</a>
         </div>
     </section>
 
-    <section id="skills">
-        <div class="container">
-            <h2>Skills Summary</h2>
-            <div class="skills-container">
-                <div class="skill-item"><strong>Programming Languages:</strong> Python, Java</div>
-                <div class="skill-item"><strong>Libraries & Tools:</strong> NumPy, Pandas, Scikit-Learn, TensorFlow, OpenCV, LangChain, Matplotlib, Git Version Control</div>
-                <div class="skill-item"><strong>Knowledge Areas:</strong> Machine Learning, Deep Learning (ANN, CNN), Computer Vision, Transfer Learning with Pre-trained CNN Models, Object Detection, GEN AI Models (ChatGPT, Gemini)</div>
-                <div class="skill-item"><strong>Soft Skills:</strong> Teamwork, Problem Solving</div>
+    <!-- skills section -->
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <img src="images/python-logo.png" alt="" class="skills_img">
+                <span class="skills_name">Python</span>
+            </div>
+
+            <div class="skills-box">
+                <img src="images/java-14.svg" alt="" class="skills_img">
+                <span class="skills_name">Java</span>
+            </div>
+
+            <div class="skills-box">
+                <img src="images/c-1.svg" alt="" class="skills_img">
+                <span class="skills_name">C</span>
+            </div>
+
+            <div class="skills-box">
+                <img src="images/numpy-1.svg" alt="" class="skills_img">
+                <span class="skills_name">Numpy</span>
+            </div>
+
+            <div class="skills-box">
+                <img src="images/pandas.svg" alt="" class="skills_img">
+                <span class="skills_name">Pandas</span>
+            </div>
+
+            <div class="skills-box">
+                <img src="images/sckitin-learn.png" alt="" class="skills_img">
+                <span class="skills_name">Scikit-Learn</span>
+            </div>
+
+            <div class="skills-box">
+                <img src="images/seaborn-1.svg" alt="" class="skills_img">
+                <span class="skills_name">Data Visualization Libraries</span>
+            </div>
+
+            <div class="skills-box">
+                <img src="images/tensorflow-2.svg" alt="" class="skills_img">
+                <span class="skills_name">Tensorflow</span>
+            </div>
+
+            <div class="skills-box">
+                <img src="images/pytorch.png" alt="" class="skills_img">
+                <span class="skills_name">PyTorch</span>
+            </div>
+
+            <div class="skills-box">
+                <img src="images/opencv.png" alt="" class="skills_img">
+                <span class="skills_name">OpenCV</span>
+            </div>
+
+            <div class="skills-box">
+                <img src="images/langchain-1.svg" alt="" class="skills_img">
+                <span class="skills_name">LangChain</span>
+            </div>
+
+            <div class="skills-box">
+                <img src="images/git-icon.svg" alt="" class="skills_img">
+                <span class="skills_name">Git</span>
+            </div>
+
+            <div class="skills-box">
+                <span class="skills_name_1">Machine Learning</span>
+            </div>
+
+            <div class="skills-box">
+                <span class="skills_name_1">Deep Learning</span>
+            </div>
+
+            <div class="skills-box">
+                <span class="skills_name_1">Computer Vision</span>
+            </div>
+
+            <div class="skills-box">
+                <span class="skills_name_1">Generative AI</span>
             </div>
         </div>
     </section>
 
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="projects-container">
-                <div class="project-card">
-                    <h3>PaperNexus: Smart Research Repository</h3>
-                    <p><strong>Date:</strong> July 09, 2024</p>
-                    <p>Developed a smart research assistant application leveraging advanced techniques from the Retrieval-Augmented Generation (RAG) pipeline. Implemented PDF document querying with advanced embeddings and vector stores. Integrated ArxivAPIWrapper for sophisticated Arxiv paper queries. Utilized Groq Inference's llama3-8b-8192 for natural language communication. Employed CohereEmbeddings and FAISS for efficient document embedding and retrieval. Built a user-friendly interface with Streamlit.</p>
-                </div>
-                <div class="project-card">
-                    <h3>DermaCare: Skin Disease Guide and Support System</h3>
-                    <p><strong>Date:</strong> Feb 10, 2024 - Mar 01, 2024</p>
-                    <p>Trained a model on 14,000 images with 8 classes of skin diseases using transfer learning and VGG-16 architecture. Integrated with Gemini Pro and LangChain for detailed descriptions based on predictions. Implemented a report analysis feature enabling users to upload patient reports for automated analysis, including key findings and severity assessment using Gemini Pro Vision. Developed a chatbot to assist users with skin disease-related queries.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Data Analyst Assistant using LangChain</h3>
-                    <p><strong>Date:</strong> Nov 29, 2023</p>
-                    <p>Created a Streamlit-based tool for analyzing CSV data files using Gemini Pro generative model. Streamlined user experience with an intuitive interface, recommending suitable visualizations and generating code.</p>
+    <!-- projects section -->
+    <section class="project" id="project">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="project-container">
+            <div class="project-box">
+                <img src="images/project.jpg" alt="">
+
+                <div class="project-layer">
+                    <h4>Data Analyst Assistant</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio explicabo culpa consequatur, nam, ratione eaque vitae nisi enim exercitationem dignissimos aliquid odio aliquam?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
+
+            <div class="project-box">
+                <img src="images/project.jpg" alt="">
+
+                <div class="project-layer">
+                    <h4>Data Analyst Assistant</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio explicabo culpa consequatur, nam, ratione eaque vitae nisi enim exercitationem dignissimos aliquid odio aliquam?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="images/project.jpg" alt="">
+
+                <div class="project-layer">
+                    <h4>Data Analyst Assistant</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio explicabo culpa consequatur, nam, ratione eaque vitae nisi enim exercitationem dignissimos aliquid odio aliquam?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="images/project.jpg" alt="">
+
+                <div class="project-layer">
+                    <h4>Data Analyst Assistant</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio explicabo culpa consequatur, nam, ratione eaque vitae nisi enim exercitationem dignissimos aliquid odio aliquam?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="images/project.jpg" alt="">
+
+                <div class="project-layer">
+                    <h4>Data Analyst Assistant</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio explicabo culpa consequatur, nam, ratione eaque vitae nisi enim exercitationem dignissimos aliquid odio aliquam?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="images/project.jpg" alt="">
+
+                <div class="project-layer">
+                    <h4>Data Analyst Assistant</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio explicabo culpa consequatur, nam, ratione eaque vitae nisi enim exercitationem dignissimos aliquid odio aliquam?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>   
+    
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer section -->
+
+    <section class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Aashish Shrestha || All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
     </section>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Feel free to reach out to me via email at <a href="mailto:22ad001@kpriet.ac.in">22ad001@kpriet.ac.in</a></p>
-            <form action="your_form_action_url" method="post">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Data Science Student Portfolio. All rights reserved.</p>
-        </div>
-    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
